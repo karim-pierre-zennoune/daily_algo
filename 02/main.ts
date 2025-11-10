@@ -45,6 +45,8 @@ const movies: Array<Movie> = [
 
 console.log("full list");
 console.log(movies);
+console.log("search: flksjlfdkjs | asc");
+console.log(findMovies("flksjlfdkjs", movies, "asc"));
 console.log("search: HaRRy | asc");
 console.log(findMovies("HaRRY", movies, "asc"));
 console.log("search: HaRRy | desc");

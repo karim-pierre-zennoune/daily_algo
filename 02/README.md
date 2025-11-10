@@ -19,8 +19,11 @@ rating : note moyenne attribuée
 Crée ensuite une fonction findMovies() qui :
 
 prend en paramètre :
+
 une chaîne de caractères (le terme à rechercher)
+
 un tableau de films
+
 retourne un nouveau tableau contenant uniquement les films dont le titre contient la chaîne recherchée, sans tenir compte de la casse.
 
 Pense à typer tes paramètres et ta valeur de sortie 😉 
