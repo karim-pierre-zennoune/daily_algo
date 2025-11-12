@@ -13,7 +13,7 @@ const books: Array<Book> = [
 ];
 
 
-function getBookTitles(books: Array<Book>, minPages?: number){
+function getBookTitles(books: Array<Book>, minPages?: number): Array<string>{
 
     if (minPages){
         return books.filter((book)=>{
